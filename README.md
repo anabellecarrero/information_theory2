@@ -10,5 +10,5 @@ The database was organized into samples and clasifications utilizing the cross-v
 Training can be drescribed as generating a dictionary for each database 's category. A classification/testing represents compressing 1 sample (which was not used in generating the template) in all templates/dictionaries. During sample test's compression, the dictionary must remain static. The test sample must be assigned to the model with the best compression.
 
 The suggested database used was the ORL Database of Faces, and it utilized all 40 available people on data; each person had 10 face photos.
-It was also tested with dictionaries's size 2*(K), which K can range between 9 and 16.
+In conclusion, this code was tested with dictionaries's size of 2*(K), where K can range between 9 and 16, along with plotting two graphs ( Hit Rate X K / Processing Time X K).
 
